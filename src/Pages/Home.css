@@ -1,0 +1,14 @@
+.main-content {
+  width: calc(100% - 200px);
+  height: calc(100vh - 56px);
+  background-color: rebeccapurple;
+  /* overflow: scroll; */
+}
+.main-content.expanded {
+  width: calc(100% - 200px);
+  transition: width 0.3s ease-in-out;
+}
+.main-content.collapse {
+  width: calc(100% - 56px);
+  transition: width 0.3s ease;
+}
