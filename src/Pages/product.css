@@ -1,0 +1,9 @@
+/* Pagination Style */
+.selected {
+  background-color: rgb(116, 167, 118);
+}
+.disable_btn {
+  opacity: 0; /* Adjust the opacity as needed */
+  pointer-events: none; /* Disable pointer events */
+  cursor: not-allowed; /* Change cursor to indicate unavailability */
+}
