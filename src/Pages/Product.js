@@ -46,7 +46,7 @@ export default function Product1() {
 
   return (
     <>
-      <div className="grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-white px-5 py-5">
+      <div className=" grid grid-cols-2 lg:grid-cols-4 gap-4  bg-white px-5 py-5">
         {data.slice(page * 10 - 10, page * 10).map((item) => (
           <>
             <div className=" flex justify-center items-center flex-col max-w-72 max-h-72 shadow-lg ">
@@ -60,16 +60,21 @@ export default function Product1() {
                 </a>
               </div>
 
-              <div className="">
-                <a href="/">
-                  <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                    {item.title}
-                    <span className="text-3xl font-bold text-gray-900 dark:text-white">
+                   <div className="mt-4 flex flex-col">
+                  <a href={`/shop`}>
+                    <p className="text-sm font-medium text-gray-900">
+                      {item.title}
+                    </p>
+                  </a>
+                  <p className="text-sm font-medium text-gray-900 flex items-center justify-between">
+                    <span className="font-semibold text-lg">
                       ₹{item.price}
                     </span>
-                  </h5>
-                </a>
-              </div>
+                    <span className="text-green-500">
+                      {item.discountPercentage}% off
+                    </span>
+                  </p>
+                </div>
               <div className="text-center py-3 mb-3 ">
                 <button
                   onClick={() => addtoCart(item)}
