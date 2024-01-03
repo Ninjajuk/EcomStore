@@ -13,10 +13,10 @@ function Home() {
   return (
     <>
       <Navbar1 />
-      <div className={`main-content ${sideopen ? "expanded" : "collapse"}`}>
+  
         {/* <ProductList/> */}
         <Product />
-      </div>
+
     </>
   );
 }
