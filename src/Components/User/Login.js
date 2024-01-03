@@ -53,7 +53,7 @@ const Login = () => {
               style={{ color: "rebeccapurple" }}
               className="text-center semibold text-lg font-semibold"
             >
-              Sign in to your account
+              Sign in to Teghiya Shop
             </h1>
             <form
               onSubmit={handleSubmit}
