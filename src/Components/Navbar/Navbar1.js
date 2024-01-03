@@ -7,7 +7,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { logout } from "../../Redux/authSlice";
 const navigation = [
-  { name: "YingKiong Store", href: "/Dashboard", current: true },
+  { name: "Teghiya", href: "/Dashboard", current: true },
   { name: "Shop", href: "/team", current: false },
   { name: "About us", href: "/about", current: false },
   { name: "Contact us", href: "/contact-us", current: false }
