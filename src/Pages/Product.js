@@ -49,7 +49,7 @@ export default function Product1() {
       <div className=" grid grid-cols-2 lg:grid-cols-4 gap-4  bg-white px-5 py-5">
         {data.slice(page * 10 - 10, page * 10).map((item) => (
           <>
-            <div className=" flex justify-center items-center flex-col max-w-72 max-h-72 shadow-lg ">
+            <div className=" px-2 py-2   flex flex-col justify-between max-w-72 max-h-72 rounded-lg shadow-lg ">
               <div className=" rounded-t-lg w-64 h-64 object-cover  ">
                 <a href="/">
                   <img
