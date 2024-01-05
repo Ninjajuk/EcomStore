@@ -40,7 +40,7 @@ function PaymentMethod() {
               htmlFor="card"
               className="block text-sm font-medium leading-6 text-gray-900"
             >
-              Card Payment
+             credit Card Payment 
             </label>
           </div>
         </div>
