@@ -47,7 +47,7 @@ const Login = () => {
           <Grid type="Puff" color="#00BFFF" height={100} width={100} />
         </div>
       ) : (
-        <div className="loginContainer ">
+        <div className="loginContainer bg-purple-300">
           <div className="formContainer shadow rounded-lg relative">
             <h1
               style={{ color: "rebeccapurple" }}
