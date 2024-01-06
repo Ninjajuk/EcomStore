@@ -26,14 +26,14 @@ const AboutUs = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <Card
           title="Our Story"
-          content="Founded in 2024, Yingkiong Store was born out of a love for our product and a commitment to what makes our brand unique. What started as a small idea has now grown into a  thriving community of our customer base who share our passion."
+          content="Founded in 2024, Teghiya Store was born out of a love for our product and a commitment to what makes our brand unique. What started as a small idea has now grown into a  thriving community of our customer base who share our passion."
           bgcolor='bg-yellow-400'
         />
 
         <Card
           title="Our Mission"
-          bgcolor='bg-green-400'
-          content="At Yingkiong Store, our mission is to our product better. We believe in  core beliefs, and every product we offer is a reflection of that commitment. We strive to excel in every aspect of our business."
+          bgcolor='bg-blue-400'
+          content="At Teghiya Store, our mission is to make our product better. We believe in  core beliefs, and every product we offer is a reflection of that commitment. We strive to excel in every aspect of our business."
         />
       </div>
     </div>
