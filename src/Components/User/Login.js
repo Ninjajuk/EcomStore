@@ -101,21 +101,8 @@ const Login = () => {
                   Login with OTP
                 </button>
               </div>
-              <div className="pt-3">Or continue with</div>
-              <div className=" w-full flex items-center justify-center gap-x-6 mt-2 ">
-                <button className=" flex items-center bg-red-400 hover:bg-red-600 rounded-lg w-full">
-                  <span className="px-2 py-2">
-                    <FaRegEnvelope />
-                  </span>
-                  <span className="px-2 py-2">Gmail</span>
-                </button>
-                <button className=" flex items-center bg-blue-400 hover:bg-blue-600 rounded-lg w-full">
-                  <span className="px-2 py-2">
-                    <FaLinkedinIn />
-                  </span>
-                  <span className="px-2 py-2">LinkedIn</span>
-                </button>
-              </div>
+      
+   
               <p className=" w-full flex items-center justify-center gap-x-1  absolute bottom-0 mb-3   ">
                 Don't have an account?
                 <span
