@@ -5,7 +5,7 @@ import { store } from "./Redux/store";
 import router from "./Router/Routes";
 import { RouterProvider } from "react-router-dom";
 import App from "./App";
-
+import "./tailwind.output.css";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import MainContent from "./AdminMainContent";
 import Sidebar1 from "../Sidebar/Sidebar1";
-import Sidebar from "../Sidebar/Sidebar";
+
 import Header from "./Header";
 
 function AdminLayout({ children }) {
@@ -20,14 +20,6 @@ function AdminLayout({ children }) {
         isMobileSidebarOpen={isMobileSidebarOpen}
       />
       <div className="flex md:flex-row ">
-        {/* <Sidebar
-          isMobileSidebarOpen={isMobileSidebarOpen}
-          toggleMobileSidebar={toggleMobileSidebar}
-        /> */}
-        {/* <Sidebar
-          isMobileSidebarOpen={isMobileSidebarOpen}
-          toggleMobileSidebar={toggleMobileSidebar}
-        /> */}
         <Sidebar1
           isMobileSidebarOpen={isMobileSidebarOpen}
           toggleMobileSidebar={toggleMobileSidebar}

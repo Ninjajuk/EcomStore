@@ -3,7 +3,7 @@ import "../tailwind.output.css";
 import "./product.css";
 import { useDispatch, useSelector } from "react-redux";
 import { addItem, removeItem } from "../Redux/cartSlicer";
-import Layout from "../Layout";
+
 
 export default function Product1() {
   const [data, setData] = useState([]);

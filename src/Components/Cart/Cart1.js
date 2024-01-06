@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import EmptyCart from "./EmptyCart";
 import PriceSidebar from "../Cart/TotalPriceSidebar";
-import Navbar1 from "../Navbar/Navbar1";
+
 import { Grid } from "react-loader-spinner";
 import Footer from "../Footer";
 import {
@@ -11,7 +11,8 @@ import {
   decreaseQuantity,
   removeItem
 } from "../../Redux/cartSlicer";
-import Navbar4 from "../Navbar/Navbar4";
+import Navbar1 from "../Navbar/Navbar1";
+
 function ShoppingCart1() {
   const cartItems = useSelector((state) => state.cart);
   const dispatch = useDispatch();
@@ -50,7 +51,7 @@ function ShoppingCart1() {
           </div>
         ) : (
           <>
-            <Navbar4 />
+            <Navbar1 />
             <div>
               <span className="text-4xl my-5 font-bold tracking-tight text-gray-900">
                 {cartItems.length === 0 ? null : <h1>Shopping Cart</h1>}

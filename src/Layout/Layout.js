@@ -1,18 +1,18 @@
 import { useState } from "react";
 import Navbar1 from "../Components/Navbar/Navbar1";
-import Navbar4 from "../Components/Navbar/Navbar4";
+
 import Sidebar from "../Components/Sidebar/Sidebar";
 
 function Layout1({ children }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [isMobileView, setIsMobileView] = useState(false);
+
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
   return (
     <div className="flex flex-col h-screen overflow-hidden">
-      <Navbar4
+      <Navbar1
         isMobileSidebarOpen={isSidebarOpen}
         toggleSidebar={toggleSidebar}
       />

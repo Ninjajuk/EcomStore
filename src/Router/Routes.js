@@ -22,8 +22,7 @@ import Wishlist from "../Components/User/MyProfile/Wishlist";
 import LoginWithOTP from "../Components/User/LoginWithOTP";
 import ManageAddress from "../Components/User/MyProfile/ManageAddress";
 import ErrorPage from "../Pages/404Page";
-import Navbar3 from "../Components/Navbar/Navbar3";
-import Navbar4 from "../Components/Navbar/Navbar4";
+
 
 
 
@@ -53,7 +52,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/about",
+    path: "/about-us",
     element: <About/>
   },
   {
@@ -123,14 +122,8 @@ const router = createBrowserRouter([
     path: "*",
     element: <ErrorPage/>
   },
-  {
-    path: "nav",
-    element: <Navbar3/>
-  },
-  {
-    path: "nav4",
-    element: <Navbar4 />
-  },
+
+
   {
     path: "/dashboard",
     element: <AdminMainContent/>
