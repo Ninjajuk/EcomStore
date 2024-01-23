@@ -7,7 +7,7 @@ const ConfirmPassword = () => {
   const navigate = useNavigate();
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  // const [user, setUser] = useState();
+  
   function handleChange(e) {
     if (e.target.name === "newPassword") {
       setNewPassword(e.target.value);
