@@ -33,7 +33,7 @@ const AboutUs = () => {
         <Card
           title="Our Mission"
           bgcolor='bg-green-400'
-          content="At Teghiya Store, our mission is to make our product better. We believe in  core beliefs, and every product we offer is a reflection of that commitment. We strive to excel in every aspect of our business."
+          content="At Teghiya Store, our mission is to make our product better. We believe in the  core beliefs, and every product we offer is a reflection of that commitment. We strive to excel in every aspect of our business."
         />
       </div>
     </div>
